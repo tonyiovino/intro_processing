@@ -11,16 +11,16 @@ void draw() {
 
   if (mouseX < 300) {
     posX = 0;
-    fill(0, 255, 0);
+    fill(0, 255, 0); // green
 
   }
   else if (mouseX < 600) {
     posX = 300;
-    fill(255);
+    fill(255); // white
   }
   else {
     posX = 600;
-    fill(255, 0, 0);
+    fill(255, 0, 0); // red
   }
 
   rect(posX, 0, 300, 400);
